@@ -78,21 +78,20 @@ body {
 
 #container {
     position: relative;
-    height: 3000px;
     width: 800px;
     margin: 0 auto;
 }
 
 #container2 {
-    margin: 50px 0;
-    height: 400px;
+    margin: 50px 0 200px;
+    height: 310px;
     width: 800px;
     color: black;
 }
 
 .titulo {
     font-size: 40px;
-    margin-bottom: 0;
+    margin: 0;
     letter-spacing: 2px;
     color: #d87093;
 }
@@ -103,20 +102,21 @@ body {
     font-style: italic;
     margin-top: 5px;
     color: grey;
+    width: 466.6px;
 }
 
-#container21 {
+.container21 {
     text-align: center;
 }
 
-#container211 {
+.container211 {
     float: left;
     width: 200px;
     height: 250px;
-    margin: 30px 33.3px 0 33.3px;
+    margin: 30px 66.6px 0 0px;
 }
 
-#container212 {
+.container212 {
     float: left;
     width: 200px;
     height: 250px;
@@ -124,12 +124,12 @@ body {
     margin: 30px 33.3px 0 33.3px;
 }
 
-#container213 {
+.container213 {
     float: left;
     width: 200px;
     height: 250px;
     margin: 30px 0 0;
-    margin: 30px 33.3px 0 33.3px;
+    margin: 30px 0px 0 66.6px;
 }
 
 .descricaocontainer21 {
@@ -140,10 +140,15 @@ body {
     width: 100px;
     display: block;
     margin: 0 auto;
+    border-radius: 100%;
+}
+
+#container3 {
+    height: 222px;
+    margin-bottom: 30px;
 }
 
 #container31 {
-    height: 400px;
     float: right;
     width: 466.6px;
 }
@@ -152,9 +157,9 @@ body {
 .titulo2 {
     text-align: end;
     font-size: 40px;
-    margin-bottom: 0;
+    margin: 0 0 0 auto;
     letter-spacing: 2px;
-    color: rgb(0, 119, 255);
+    color: #0077ff;
 }
 
 .subtitulo2 {
@@ -166,6 +171,38 @@ body {
     text-align: justify;
 }
 
+#container32 {
+    float: left;
+    width: 333.4px;
+    height: 222px;
+}
+
+#container33 {
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+#edmundo {
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin: 36px auto;
+}
+
 #container4 {
-    height: 400px;
+    width: 800px;
+    height: 126px;
+    margin: 0 0 50px;
+}
+
+#container41 {
+    float: left;
+    width: 466.6px;
+}
+
+#container42 {
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin: 13px 0;
 }
