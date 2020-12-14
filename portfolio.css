@@ -142,12 +142,15 @@ body {
     margin: 0 auto;
 }
 
-#container3 {
+#container31 {
     height: 400px;
+    float: right;
+    width: 466.6px;
 }
 
 
 .titulo2 {
+    text-align: end;
     font-size: 40px;
     margin-bottom: 0;
     letter-spacing: 2px;
@@ -160,9 +163,9 @@ body {
     font-style: italic;
     margin-top: 5px;
     color: grey;
+    text-align: justify;
 }
 
 #container4 {
     height: 400px;
-    background-color: white;
 }
