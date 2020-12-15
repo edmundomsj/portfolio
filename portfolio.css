@@ -3,6 +3,10 @@
     src: url(OpenSans/OpenSans-Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'OpenSans';
@@ -60,7 +64,7 @@ body {
     font-size: 14px;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: rgb(39, 39, 39);
     font-weight: bold;
     letter-spacing: 0.5px;
 }
@@ -70,7 +74,7 @@ body {
 }
 
 .botoes:active {
-    background-color: violet;
+    background-color: rgb(212, 212, 212);
 
 }
 
@@ -80,10 +84,11 @@ body {
     position: relative;
     width: 800px;
     margin: 0 auto;
+    background-color:  rgb(230, 230, 230);
 }
 
 #container2 {
-    margin: 50px 0 200px;
+    margin: 50px 0 300px;
     height: 310px;
     width: 800px;
     color: black;
@@ -111,9 +116,9 @@ body {
 
 .container211 {
     float: left;
-    width: 200px;
+    width: 100px;
     height: 250px;
-    margin: 30px 66.6px 0 0px;
+    margin: 30px 166.6px 0 0px;
 }
 
 .container212 {
@@ -126,10 +131,10 @@ body {
 
 .container213 {
     float: left;
-    width: 200px;
+    width: 100px;
     height: 250px;
     margin: 30px 0 0;
-    margin: 30px 0px 0 66.6px;
+    margin: 30px 0px 0 166.6px;
 }
 
 .descricaocontainer21 {
@@ -141,6 +146,10 @@ body {
     display: block;
     margin: 0 auto;
     border-radius: 100%;
+}
+
+.icone:hover {
+    zoom: 101%;
 }
 
 #container3 {
@@ -179,7 +188,7 @@ body {
 
 #container33 {
     height: 500px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 #edmundo {
@@ -192,7 +201,7 @@ body {
 #container4 {
     width: 800px;
     height: 126px;
-    margin: 0 0 50px;
+    margin: 0 0 100px;
 }
 
 #container41 {
